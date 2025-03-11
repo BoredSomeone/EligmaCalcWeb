@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <a href="https://github.com/BoredSomeone/EligmaCalc" target="_blank" rel="noopener noreferrer">
-      사용법 | 使い方 | How to use
-    </a>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=500 height=300 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -60,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js";
+      var loaderUrl = buildUrl + "/1.1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Web.data",
-        frameworkUrl: buildUrl + "/Web.framework.js",
-        codeUrl: buildUrl + "/Web.wasm",
+        dataUrl: buildUrl + "/1.1.data",
+        frameworkUrl: buildUrl + "/1.1.framework.js",
+        codeUrl: buildUrl + "/1.1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "EligmaCalc",
